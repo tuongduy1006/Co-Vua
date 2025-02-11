@@ -1,0 +1,113 @@
+h1 {
+    font-family: Arial, sans-serif;
+    color: black;
+    text-align: center;
+    padding: 20px;
+    font-size: 60px;
+}
+
+p {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: justify;
+    margin: 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: center; 
+    margin: 20px 0; 
+}
+
+img {
+    max-width: 250px; 
+    height: auto; 
+}
+
+.content {
+    background-color: rgba(255, 255, 255, 0.8); /* Làm mờ nền */
+    border-radius: 10px;
+    padding: 20px;
+    margin: 60px auto;
+    max-width: 1200px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Đổ bóng */
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('cmon.jpg'); /* Thay bằng hình nền của bạn */
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    color: #333;
+}
+
+.c-button {
+    position: fixed; /* Giữ nút cố định ở góc */
+            bottom: 20px; /* Cách cạnh dưới 20px */
+            right: 20px; /* Cách cạnh phải 20px */
+            background-color: #007bff; /* Màu xanh */
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 5px;
+            cursor: pointer;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Đổ bóng */
+            font-size: 16px;
+            transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.c-button:hover {
+    transform: scale(1.1); /* Tăng kích thước khi hover */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Đổ bóng lớn hơn */
+}
+
+.b-button {
+    position: fixed; /* Giữ nút cố định ở góc */
+            bottom: 20px; /* Cách cạnh dưới 20px */
+            left: 20px; /* Cách cạnh phải 20px */
+            background-color: #007bff; /* Màu xanh */
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 5px;
+            cursor: pointer;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Đổ bóng */
+            font-size: 16px;
+            transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.b-button:hover {
+    transform: scale(1.1); /* Tăng kích thước khi hover */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Đổ bóng lớn hơn */
+}
+
+.royal {
+    text-indent: 30px;
+}
+
+.menu .home {
+    border: none;
+    padding: 0;
+    position: fixed;
+    top: 20px;
+    left: 20px;
+}
+
+.menu .home img {
+    width: 70px; /* Kích thước ảnh */
+    height: 70px;
+    border-radius: 50%; /* Làm ảnh tròn (tuỳ chọn) */
+    transition: transform 0.3s;
+}
+
+.menu .home img:hover {
+    transform: scale(1.1); /* Phóng to khi di chuột */
+}
+
+.menu .home img:active {
+    transform: scale(0.9); /* Thu nhỏ khi nhấn */
+}

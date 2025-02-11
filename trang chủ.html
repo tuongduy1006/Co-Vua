@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang chủ</title>
+    <link rel="stylesheet" href="stylelist.css"> <!-- Liên kết đến CSS -->
+</head>
+<body>
+
+    <!-- Thanh điều hướng -->
+    <nav class="container">
+        <div class="menu">
+            <div class="home" onclick="navigateTo('Trang chủ.html')"><a href="Trang chủ.html">
+                <img src="icon.jpg" alt="Trang chủ">
+            </div>
+        </div>
+        <ul class="nav-links">
+            <li class="dropdown">
+                <a href="#">Khai Cuộc</a>
+                <ul class="submenu">
+                    <li><a href="Khai cuộc Italia.html">Khai cuộc Italia</a></li>
+                    <li><a href="Khai cuộc Sicilian Defense.html">Khai cuộc Sicilian Defense</a></li>
+                    <li><a href="Khai cuộc Queen's Gambit.html">Khai cuộc Queen’s Gambit</a></li>
+                </ul>
+            </li>
+            <li class="dropdown">
+                <a href="#">Chiến Thuật</a>
+                <ul class="submenu">
+                    <li><a href="Chiếu đôi.html">Chiếu đôi</a></li>
+                    <li><a href="Thu hút.html">Thu hút</a></li>
+                    <li><a href="Ghim.html">Ghim</a></li>
+                </ul>
+            </li>
+            <li class="dropdown">
+                <a href="hay.html">Các Ván Cờ Hay</a>
+            </li>
+        </ul>
+    </nav>
+    
+
+    <!-- Header với hình nền -->
+    <header class="hero">
+        <h1>Chào mừng bạn đến với thế giới Cờ Vua</h1>
+        <p>Khám phá lịch sử, chiến thuật và những ván cờ huyền thoại</p>
+    </header>
+
+    <!-- Phần nội dung chính -->
+    <main>
+        <!-- Giới thiệu nguồn gốc -->
+        <section class="intro">
+            <h2>Nguồn gốc cờ vua</h2>
+            <p>Cờ vua có nguồn gốc từ Ấn Độ vào thế kỷ thứ 6 với tên gọi "Chaturanga". Trò chơi sau đó lan truyền đến Ba Tư, Châu Âu và trở thành bộ môn thể thao trí tuệ phổ biến như ngày nay.</p>
+            <img src="chess-origin.jpg" alt="Nguồn gốc cờ vua">
+        </section>
+
+        <!-- Lợi ích của cờ vua -->
+        <section class="benefits">
+            <h2>Lợi ích khi chơi cờ vua</h2>
+            <ul>
+                <li>✔ Phát triển tư duy chiến lược</li>
+                <li>✔ Cải thiện trí nhớ và sự tập trung</li>
+                <li>✔ Giúp rèn luyện tính kiên nhẫn</li>
+            </ul>
+        </section>
+
+        <!-- Các kỳ thủ vĩ đại -->
+        <section class="legends">
+            <h2>Những kỳ thủ vĩ đại</h2>
+            <div class="players">
+                <div class="player">
+                    <img src="magnus.jpg" alt="Magnus Carlsen">
+                    <h3>Magnus Carlsen</h3>
+                    <p>Vô địch thế giới từ 2013 - 2023.</p>
+                </div>
+                <div class="player">
+                    <img src="kasparov.jpg" alt="Garry Kasparov">
+                    <h3>Garry Kasparov</h3>
+                    <p>Huyền thoại cờ vua, giữ danh hiệu số 1 thế giới trong 20 năm.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script>
+        // JavaScript để mở menu trên mobile
+        document.querySelector(".hamburger").addEventListener("click", function() {
+            document.querySelector(".nav-links").classList.toggle("active");
+        });
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,109 @@
+.haha {
+    background-color: rgba(255, 255, 255, 0.8); /* Màu nền trong suốt nhẹ */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Hiệu ứng đổ bóng */
+    width: 33.3%; 
+    padding: 10px;  
+    float: left; 
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.haha:hover {
+    transform: translateY(-10px); /* Di chuyển lên khi hover */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3); /* Đổ bóng mạnh hơn */
+}
+
+/* Tổng thể cho body */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('background.jpg'); /* Thay bằng hình nền của bạn */
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    color: #333;
+    image: url('haha.jpg');
+}
+
+/* Container tổng */
+.container {
+    background-color: rgba(255, 255, 255, 0.9); /* Làm mờ nền */
+    border-radius: 10px;
+    padding: 20px;
+    margin: 60px auto;
+    max-width: 1200px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Đổ bóng */
+}
+
+/* Tiêu đề */
+h1 {
+    text-align: center;
+    color: #2c3e50;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+/* Các biến khai cuộc */
+.chess-variations {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+/* Một biến khai cuộc */
+.variation {
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    text-align: center;
+    width: 30%; /* Chiều rộng mỗi khung biến */
+    padding: 10px;
+}
+
+/* Hình ảnh trong biến */
+.variation img {
+    max-width: 100%;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Văn bản mô tả */
+.variation p {
+    margin: 10px 0;
+    font-size: 14px;
+}
+
+.chess {
+    padding: 30px;
+    grid-template-rows: repeat(3, 1fr);
+    gap: 20px;
+    align-items: stretch;
+}
+
+.menu .home {
+    border: none;
+    padding: 0;
+    position: fixed;
+    top: 20px;
+    left: 20px;
+}
+
+.menu .home img {
+    width: 70px; /* Kích thước ảnh */
+    height: 70px;
+    border-radius: 50%; /* Làm ảnh tròn (tuỳ chọn) */
+    transition: transform 0.3s;
+}
+
+.menu .home img:hover {
+    transform: scale(1.1); /* Phóng to khi di chuột */
+}
+
+.menu .home img:active {
+    transform: scale(0.9); /* Thu nhỏ khi nhấn */
+}
+
+
