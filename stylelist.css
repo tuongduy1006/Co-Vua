@@ -209,6 +209,11 @@ nav {
     padding: 10px;
 }
 
+.submenu li a {
+    text-align: center;
+    color: black;
+}
+
 
 .dropdown {
     position: relative;
