@@ -108,7 +108,7 @@ nav {
 
 /* Header */
 .hero {
-    background: url('chess-bg.jpg') no-repeat center center/cover;
+    background: url(obito.jpg);
     color: white;
     text-align: center;
     padding: 100px 20px;
