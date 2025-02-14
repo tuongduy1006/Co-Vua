@@ -108,9 +108,8 @@ nav {
 
 /* Header */
 .hero {
-    background: url(obito.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
+    background: url('obito.jpg') no-repeat center center;
+    background-size: cover; 
     color: white;
     text-align: center;
     padding: 100px 20px;
@@ -201,9 +200,8 @@ nav {
 }
 
 body {
-    background: url(obito.jpg);
+    background: url('obito.jpg') no-repeat center center fixed;
     background-size: cover;
-    background-repeat: no-repeat;
 }
 
 .submenu {
