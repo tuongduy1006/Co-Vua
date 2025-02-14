@@ -26,11 +26,11 @@ img {
 }
 
 .content {
-    background-color: (255, 255, 255, 0.9); /* Làm mờ nền */
+    background-color: (255, 255, 255, 0.9); 
     border-radius: 10px;
     padding: 20px;
     margin: 60px auto;
     max-width: 1200px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Đổ bóng */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); 
 }
 

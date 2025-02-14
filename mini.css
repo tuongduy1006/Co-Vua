@@ -1,8 +1,8 @@
 .haha {
-    background-color: rgba(255, 255, 255, 0.8); /* Màu nền trong suốt nhẹ */
+    background-color: rgba(255, 255, 255, 0.8);
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Hiệu ứng đổ bóng */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     width: 33.3%; 
     padding: 10px;  
     float: left; 
@@ -10,16 +10,16 @@
 }
 
 .haha:hover {
-    transform: translateY(-10px); /* Di chuyển lên khi hover */
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3); /* Đổ bóng mạnh hơn */
+    transform: translateY(-10px); 
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
 }
 
-/* Tổng thể cho body */
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-image: url('background.jpg'); /* Thay bằng hình nền của bạn */
+    background-image: url('background.jpg'); 
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
@@ -27,17 +27,17 @@ body {
     image: url('haha.jpg');
 }
 
-/* Container tổng */
+
 .container {
-    background-color: rgba(255, 255, 255, 0.9); /* Làm mờ nền */
+    background-color: rgba(255, 255, 255, 0.9); 
     border-radius: 10px;
     padding: 20px;
     margin: 60px auto;
     max-width: 1200px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Đổ bóng */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); 
 }
 
-/* Tiêu đề */
+
 h1 {
     text-align: center;
     color: #2c3e50;
@@ -45,7 +45,7 @@ h1 {
     margin-top: 20px;
 }
 
-/* Các biến khai cuộc */
+
 .chess-variations {
     display: flex;
     justify-content: space-between;
@@ -53,24 +53,23 @@ h1 {
     gap: 20px;
 }
 
-/* Một biến khai cuộc */
 .variation {
     background-color: #f9f9f9;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     overflow: hidden;
     text-align: center;
-    width: 30%; /* Chiều rộng mỗi khung biến */
+    width: 30%; 
     padding: 10px;
 }
 
-/* Hình ảnh trong biến */
+
 .variation img {
     max-width: 100%;
     border-bottom: 1px solid #ddd;
 }
 
-/* Văn bản mô tả */
+
 .variation p {
     margin: 10px 0;
     font-size: 14px;
@@ -92,18 +91,18 @@ h1 {
 }
 
 .menu .home img {
-    width: 70px; /* Kích thước ảnh */
+    width: 70px; 
     height: 70px;
-    border-radius: 50%; /* Làm ảnh tròn (tuỳ chọn) */
+    border-radius: 50%; 
     transition: transform 0.3s;
 }
 
 .menu .home img:hover {
-    transform: scale(1.1); /* Phóng to khi di chuột */
+    transform: scale(1.1); 
 }
 
 .menu .home img:active {
-    transform: scale(0.9); /* Thu nhỏ khi nhấn */
+    transform: scale(0.9);
 }
 
 
