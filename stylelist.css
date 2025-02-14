@@ -210,10 +210,6 @@ body {
     padding: 10px;
 }
 
-.submenu li a {
-    color: black;
-    display: flex;
-}
 
 .dropdown {
     position: relative;
