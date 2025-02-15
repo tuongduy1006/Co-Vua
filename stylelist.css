@@ -140,6 +140,10 @@ nav {
     background-color: #916344;
 }
 
+.big {
+    background-color: #916344;
+}
+
 
 /* Lợi ích */
 .benefits {
@@ -210,7 +214,6 @@ nav {
 }
 
 .submenu li a {
-    text-align: center;
     color: black;
 }
 
